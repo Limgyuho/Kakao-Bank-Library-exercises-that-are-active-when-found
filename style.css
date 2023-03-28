@@ -1,0 +1,10 @@
+.title-1 {
+    transition: transform 1s, opacity 1s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.title-1.active {
+    transform: translateY(0);
+    opacity: 1;
+}
